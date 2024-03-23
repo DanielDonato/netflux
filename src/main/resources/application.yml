@@ -1,0 +1,9 @@
+spring:
+  data:
+    mongodb:
+#      host: localhost
+#      port: 27017
+#      database: baeldung
+#      username: admin
+#      password: password
+      uri: mongodb://root:example@localhost:27017/netflux?authSource=admin
